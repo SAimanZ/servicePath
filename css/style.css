@@ -181,6 +181,9 @@ nav {
     flex-direction: column;
     gap: 20px;
   }
+  .Submit{
+    justify-content: center;
+  }
 
   .Our_Users_Love_Us_ {
     font-size: 24px;
@@ -200,11 +203,11 @@ nav {
   font-weight: bold;
 }
 
-form input, form textarea {
+.form input, form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   border-radius: 5px;
 }
 
@@ -212,10 +215,12 @@ form input, form textarea {
   background-color: rgb(107, 178, 68);
   color: white;
   width: 30%;
+  font-size: 17px;
   border-radius: 18px;
-  padding: 10px 0;
+  padding: 7px 0;
   font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-weight: 500 !important;
+  float: inline-end;
 }
 
 /* Responsive Contact Form */
